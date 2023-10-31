@@ -1,0 +1,51 @@
+.setting{
+    height: 780px;
+    width: 1490px;
+    background-image: url(../components/profile.png);
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+.bg-color{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background:#c6c6c663;
+    
+}
+.setting1{
+    flex-direction: column;
+    width: 450px;
+    background-color: white;
+    margin-top: 250px;
+    margin-left: 550px;
+    border-radius: 10px;
+    
+}
+.setting1 li{
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    
+    
+    
+}
+.list{
+    margin-top:7px;
+    margin-bottom: 12px;
+}
+.list a{
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(77, 77, 77);
+}
+.list a:hover{
+    transition: 0.5s;
+    
+    color: black;
+    font-weight: 600;
+    
+}
